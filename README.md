@@ -6,7 +6,7 @@ vim build.sh
 
 ```bash
 #!/bin/bash
-sudo apt update
+apt update
 echo "Install dotnet"
 apt install -y aspnetcore-runtime-8.0
 apt install -y dotnet-sdk-8.0
