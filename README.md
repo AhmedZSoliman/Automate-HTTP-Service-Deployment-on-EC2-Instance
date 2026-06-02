@@ -5,13 +5,11 @@ vim build.sh
 ```
 
 ```bash
-
- #!/bin/bash
-
+#!/bin/bash
 sudo apt update
 echo "Install dotnet"
-sudo apt install -y aspnetcore-runtime-8.0
-sudo apt install -y dotnet-sdk-8.0
+apt install -y aspnetcore-runtime-8.0
+apt install -y dotnet-sdk-8.0
 
 #install git
 echo "install git"
